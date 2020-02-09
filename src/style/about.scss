@@ -1,0 +1,37 @@
+.about-container {
+    height: 800px;
+    padding-left: 50px;
+
+    .title-line {
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 3em;
+        font-family: 'Anton', sans-serif;
+        text-justify: center;
+    }
+
+    .subtitle-line {
+        font-size: 2em;
+        font-family: 'Economica', sans-serif;
+        margin-left: 100px;
+    }
+
+    .feature-container {
+        margin: 40px 20px 20px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        
+        .feature-category {
+            padding: 15px;
+            border: solid 1px;
+        }
+
+        .feature-line {
+            font-size: 2em;
+            font-family: 'Economica', sans-serif;
+            padding-bottom: 15px;
+        }
+    }
+}

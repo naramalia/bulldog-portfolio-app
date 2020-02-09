@@ -16,15 +16,16 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>BullDog</h1>
+
+        <div className="header">BullDog</div>
         <div className = "container">
           <Router>
             <div>
               <NavigationComponent />
-                <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/reel" component={Reel} />
                 <Route path="/gallery" component={Gallery} />
+                <Route path="/about" component={About} />                
             </div>
           </Router>
         </div>

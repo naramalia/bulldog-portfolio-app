@@ -1,0 +1,12 @@
+.reel-container {
+    display: flex;
+    height: 600px;
+    width: 100vw;
+
+    .reel-item {
+        height: 100%;
+        width: 50vw;
+        justify-items: center;
+        align-content: center;
+    }
+}

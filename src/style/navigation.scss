@@ -1,0 +1,22 @@
+.nav-wrapper {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-right: 50px;
+    margin-right: 50px;
+
+    .nav-link-wrapper {
+        font-size: 2em;
+        font-family: 'Jockey One', sans-serif;
+        color: black;
+    
+        .nav-link-active {
+            color: white;
+        }
+    }
+
+    
+}

@@ -3,8 +3,13 @@ import React from 'react';
 export default function Reel() {
     return (
         <div className = "reel-container">
-            <h1>REEL</h1>    
-            <h2>Reel goes here</h2>
+            <div className = "reel-item">
+                <h1>SCREEN REEL</h1>
+            </div>
+
+            <div className = "reel-item">
+                <h1>SOUND REEL</h1>
+            </div>            
         </div>
     );
 }
